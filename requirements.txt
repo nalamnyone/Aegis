@@ -1,0 +1,10 @@
+streamlit>=1.51.0
+anthropic
+python-dotenv
+Pillow
+ultralytics
+opencv-python
+numpy
+pandas
+reportlab
+huggingface_hub

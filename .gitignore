@@ -1,0 +1,22 @@
+# API keys — never commit
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# YOLO model weights — too large for GitHub (download separately)
+*.pt
+
+# Saved incident frames — may contain real footage
+incident_frames/
+
+# Incident log — may contain real incident data
+incident_log.json
+
+# Mac junk
+.DS_Store
+
+# Streamlit internal cache
+.streamlit/secrets.toml
